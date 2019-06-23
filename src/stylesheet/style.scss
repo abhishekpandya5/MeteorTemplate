@@ -1,0 +1,49 @@
+@import "../components/reset";
+@import "../components/Header/header";
+@import "../components//Banner/banner";
+@import "../components/Section/section";
+@import "../components/Middle/middle";
+@import "../components/TilesContainer/tiles";
+@import "../components/Social/social";
+@import "../components/PopularPosts/populatPosts";
+
+
+
+@import "../components/Footer/footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+a, Link {
+    text-decoration: none;
+    color: #767676;
+    font-weight: bold;
+    // font-size: 12px;
+    &:hover {
+        color: #fff;
+        transition: ease 1s;
+        text-decoration: none;
+    }
+}  
+
+.card_left {
+    padding-right: 12px;
+}
+
+.card_right {
+    padding-left: 12px;
+}

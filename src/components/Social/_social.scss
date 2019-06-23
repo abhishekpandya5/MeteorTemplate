@@ -1,0 +1,80 @@
+// .social_container {
+//     display: flex;
+//     flex-wrap: wrap;
+
+//     padding: 32px 31px;
+//     border: 1px solid;
+//     padding: 38px -6px;
+//     text-align: center;
+//     background-color: #3b59a1;
+// }
+
+// .social-circle {
+//     border-radius: 50%;
+//     width: 50px;
+//     padding: 12px 0px;
+//     height: 50px;
+//     background-color: #4f6aab;
+//     color: white;
+//     border: 1px solid;
+// }
+
+.social_cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social_container{
+    // text-align: center;
+    // border: 1px solid;
+    // padding: 48px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social_box {
+    text-align: center;
+    padding: 40px 0px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.social_format {
+    margin: 0;
+    padding: 0;
+}
+
+.social_text {
+    font-size: 14px;
+}
+
+#facebook {
+    // @extend .social_container;
+    background-color: #4f6aab;
+}
+
+#twitter {
+    // @extend .social_container;
+    background-color: #46b0e4;
+}
+
+#gplus {
+    // @extend .social_container;
+    background-color: #dd4c39;
+}
+
+#youtube {
+    // @extend .social_container;
+    background-color: #d71e17;
+}
+
+#instagram {
+    // @extend .social_container;
+    background-color: #db352f;
+}
+#wallet {
+    // @extend .social_container;
+    background-color: #4c75a3;
+}

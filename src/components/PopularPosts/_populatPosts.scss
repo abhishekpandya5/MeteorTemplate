@@ -1,0 +1,15 @@
+.postbox {
+    height: 262px;
+    .post_desp {
+        padding-top: 120px;
+        color: #fff;
+        font-weight: bold;
+        .post_views {
+            margin-left: 12px;
+        }
+        .post_title {
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+    }
+}

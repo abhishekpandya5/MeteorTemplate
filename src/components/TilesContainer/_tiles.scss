@@ -1,0 +1,21 @@
+// .tiles_container {
+//     display: flex;
+//     padding: 10px 0px;
+// }
+
+.tiles_caption {
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #090e1d;
+    font-size: 14px;
+}
+
+.inside_tiles {
+    display: flex;
+    padding: 10px 0px;
+}
+
+.tilesList_caption {
+    @extend .tiles_caption;
+    font-size: 12px;
+}

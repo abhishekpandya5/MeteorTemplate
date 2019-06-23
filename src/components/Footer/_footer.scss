@@ -1,0 +1,111 @@
+$footer-color: #090e1d;
+$text_color: #8f95aa;
+
+.footer {
+    background-color: $footer_color;
+    color: $text_color;
+    font-size: 12px;
+
+    .footer_nav {
+        color: #8f95aa;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #1f232f;
+        .footer_logo {
+            display: inline-block;
+        }
+        .footer_ul {
+            display: inline-block;
+            .footer_links {
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+                top: 20px;
+                li {
+                    cursor: pointer;
+                    transition: 1s ease;
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+                
+            }
+        }
+       .lang {
+           display: inline-block;
+           select {
+            background-color: transparent;
+            border: none;
+            color: #8f95aa;
+            cursor: pointer;
+            transition: 1s ease;
+            position: relative;
+            top: 20px;
+            &:hover {
+                color: #fff;
+            }
+            &:active {
+                outline: none;
+            }
+        }
+       }
+    }
+}
+
+.footer_text {
+    display: flex;
+    padding: 30px 0px;
+    border-bottom: 1px solid #1f232f;
+    .footer_data {
+        display: inline-block;
+    }
+    .footer_social {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    .footer_list {
+        display: inline-flex;
+        ul {
+            li {
+                cursor: pointer;
+                &:hover {
+                    color: #fff;
+                    transition: 1s ease;
+                }
+            }
+        }
+    }
+}
+
+.footer_list > div {
+    padding: 0;
+}
+
+.copyright {
+    padding-left: 19px;
+    padding-top: 20px;
+}
+
+.footer_logo_name{
+    color: #fff;
+    font-weight: bold;
+    .footer_span {
+        color: #f44336;
+    }
+}
+.footer_services {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    li {
+        cursor: pointer;
+        &:hover{
+            color: #fff;
+            transition: 1s ease;
+        }
+    }
+}
+p{
+    margin-bottom: 0;
+}
+
