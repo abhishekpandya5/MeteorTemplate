@@ -10,7 +10,7 @@ class Tiles extends Component {
                         <img src={image} alt={alt} className="col-sm-3 responsive" />
                     {/* </div> */}
                
-                <div className="col-sm-9">
+                <div className="col-sm-9 tiles_info">
                     <div className="offset-sm-1 col-sm-10 offset-sm-1">
                         <p className="tiles_caption">{caption}</p>
                         <span className="section_user">{userName}</span> <span className="section_user">|</span> <span className="section_user">{userTime}</span>

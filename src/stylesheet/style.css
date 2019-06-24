@@ -71,6 +71,12 @@
 .search {
   cursor: pointer; }
 
+@media (max-width: 480px) {
+  .header_links {
+    display: none; } }
+@media (max-width: 768px) {
+  .header_links {
+    display: none; } }
 .banner_container {
   height: 410px;
   position: relative;
@@ -108,6 +114,7 @@
 span {
   font-size: 12px; }
 
+/*media queries for small devices*/
 .section_data {
   padding: 20px 0px;
   background-color: #fff; }
@@ -164,6 +171,12 @@ span {
   color: #838793;
   font-weight: bold; }
 
+@media (max-width: 480px) {
+  .outline .section h5 {
+    text-align: center; }
+  .outline .section_links {
+    width: 50%;
+    margin: auto; } }
 .middle_container {
   background-color: #f5f5f5; }
   .middle_container .middle_component {
@@ -210,8 +223,36 @@ span {
 
 @media only screen and (max-width: 600px) {
   .responsive {
-    width: 100px;
-    margin-right: 16px; } }
+    width: 100px; } }
+@media (max-width: 480px) {
+  .middle_component .left_parent .mobile_card {
+    display: block; }
+  .middle_component .right_parent {
+    margin: 0; }
+    .middle_component .right_parent .popular_post {
+      padding: 0; }
+      .middle_component .right_parent .popular_post .post_heading {
+        text-align: center;
+        margin-bottom: 0;
+        padding: 10px; }
+      .middle_component .right_parent .popular_post .post_list {
+        padding: 10px 20px; }
+    .middle_component .right_parent .img_container {
+      margin: 0; }
+      .middle_component .right_parent .img_container .img_text .img_heading {
+        font-size: 44px;
+        padding-left: 38px; }
+      .middle_component .right_parent .img_container .img_text .img_para {
+        padding: 0px 10px;
+        text-align: center;
+        font-size: 15px; }
+
+  .middle_container .middle_component .tiles_main_container {
+    padding: 10px 20px; }
+  .middle_container .middle_component .card_without_heading {
+    display: block; }
+    .middle_container .middle_component .card_without_heading .tiles {
+      padding: 10px 20px; } }
 .tiles_caption, .tilesList_caption {
   margin-bottom: 0;
   font-weight: bold;
@@ -223,8 +264,11 @@ span {
   padding: 10px 0px; }
 
 .tilesList_caption {
-  font-size: 12px; }
+  font-size: 14px; }
 
+@media (max-width: 480px) {
+  .tiles_info {
+    padding: 0px 15px; } }
 .social_cont {
   display: flex;
   flex-wrap: wrap; }
@@ -266,6 +310,12 @@ span {
 #wallet {
   background-color: #4c75a3; }
 
+@media (max-width: 480px) {
+  .social_container {
+    display: none; }
+
+  .section_data {
+    padding: 14px; } }
 .postbox {
   height: 262px; }
   .postbox .post_desp {
@@ -278,6 +328,11 @@ span {
       padding: 2px 6px;
       border-radius: 3px; }
 
+@media (max-width: 480px) {
+  .postbox .post_desp {
+    width: 80%;
+    margin: auto;
+    padding-top: 150px; } }
 .footer {
   background-color: #090e1d;
   color: #8f95aa;
@@ -359,6 +414,38 @@ span {
 p {
   margin-bottom: 0; }
 
+/*media queries for small devices*/
+@media (max-width: 480px) {
+  .footer .footer_nav {
+    padding-bottom: 20px;
+    display: flex; }
+    .footer .footer_nav .footer_logo .footer_image {
+      width: 90px;
+      margin-top: 12px; }
+    .footer .footer_nav .footer_ul {
+      display: none; }
+    .footer .footer_nav .lang select {
+      position: absolute;
+      top: 31px;
+      right: 0; }
+  .footer .footer_text {
+    padding: 20px 0px; }
+    .footer .footer_text .footer_data .footer_social {
+      width: 60%;
+      margin: auto;
+      padding-top: 20px; }
+      .footer .footer_text .footer_data .footer_social .footer_social_icon {
+        width: 30px; }
+    .footer .footer_text .footer_list {
+      display: none; }
+  .footer .footer_services {
+    display: none; }
+  .footer .copyright {
+    padding-left: 0; }
+  .footer .last {
+    text-align: center; }
+  .footer .footer_logo_name {
+    padding-top: 10px; } }
 * {
   margin: 0;
   padding: 0;
@@ -387,5 +474,9 @@ a, Link {
 
 .card_right {
   padding-left: 12px; }
+
+@media (max-width: 480px) {
+  .card_left, .card_right {
+    padding: 0; } }
 
 /*# sourceMappingURL=style.css.map */

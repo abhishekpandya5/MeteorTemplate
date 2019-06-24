@@ -37,7 +37,7 @@
     padding: 40px 0px;
     font-weight: bold;
     color: #fff;
-    margin-right: 16px;
+    margin-right: 16px;  
     margin-bottom: 16px;
 }
 
@@ -77,4 +77,13 @@
 #wallet {
     // @extend .social_container;
     background-color: #4c75a3;
+}
+
+@media (max-width: 480px) {
+    .social_container {
+        display: none;
+    }
+    .section_data {
+        padding: 14px;
+    }
 }

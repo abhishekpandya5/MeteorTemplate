@@ -47,3 +47,9 @@ a, Link {
 .card_right {
     padding-left: 12px;
 }
+
+@media (max-width: 480px) {
+    .card_left, .card_right {
+        padding: 0;
+    }
+}

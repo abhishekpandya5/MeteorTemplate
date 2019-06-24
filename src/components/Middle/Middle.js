@@ -12,7 +12,7 @@ class Middle extends Component {
     render() {
         return (
             <div className="middle_container">
-                <div className="wrapper">
+                <div className="container">
                     <div className="row middle_component">
                         <div className="col-sm-7 left_parent">
                             <div className="col-sm-12">
@@ -31,7 +31,7 @@ class Middle extends Component {
                             </div>
 
 
-                            <div className="col-sm-12 card_container">
+                            <div className="col-sm-12 card_container mobile_card">
                                 <div className="col-sm-6 card_left">
                                     <CardContainer
                                         heading={card_data[0].heading}
@@ -100,7 +100,7 @@ class Middle extends Component {
                                             image={card_data[2].image}
                                         />
                                     </div>
-                                    <div className="col-sm-6 card_right">
+                                    <div className="col-sm-6 card_right ">
                                         <CardContainer
                                             heading={card_data[3].heading}
                                             headingStyle={card_data[3].headingStyle}
@@ -129,7 +129,7 @@ class Middle extends Component {
                                             description={card_data[4].description}
                                         />
                                     </div>
-                                    <div className="col-sm-6 card_right">
+                                    <div className="col-sm-6 card_right ">
                                         <TilesListContainer />
                                     </div>
                                 </div>

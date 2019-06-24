@@ -63,3 +63,15 @@ $header_links_backgroundColor: #1A0F37;
 .search {
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    .header_links {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .header_links {
+        display: none;
+    }
+}

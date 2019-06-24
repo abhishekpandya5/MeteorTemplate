@@ -13,3 +13,13 @@
         }
     }
 }
+
+@media (max-width: 480px) {
+    .postbox {
+        .post_desp {
+            width: 80%;
+            margin: auto;
+            padding-top: 150px;
+        }
+}
+}

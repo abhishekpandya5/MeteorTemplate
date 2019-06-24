@@ -17,5 +17,10 @@
 
 .tilesList_caption {
     @extend .tiles_caption;
-    font-size: 12px;
+    font-size: 14px;
+}
+@media (max-width: 480px) {
+    .tiles_info {
+        padding: 0px 15px;
+    }
 }

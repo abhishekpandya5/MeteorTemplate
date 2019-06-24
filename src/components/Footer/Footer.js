@@ -14,7 +14,7 @@ class Footer extends Component {
                 <div className="wrapper">
                     <div className="footer_nav">
                         <div className="col-sm-2 footer_logo">
-                            <img src={footer_logo} alt="footer_logo" />
+                            <img src={footer_logo} className="footer_image" alt="footer_logo" />
                         </div>
 
                         <div className="offset-sm-1 col-sm-7 footer_ul">
@@ -41,11 +41,11 @@ class Footer extends Component {
                         <div className="col-sm-4 footer_data">
                             {footer_data[0].text}
                             <div className="col-sm-9 footer_social">
-                                <a href="http://www.twitter.com"><img src={twitter_logo} alt="twitter" /></a>
-                                <a href="http://www.facebook.com"><img src={fb_logo} alt="facebook" /></a>
-                                <a href="http://www.google.com"><img src={icon_logo} alt="icon" /></a>
-                                <a href="http://www.instagram.com"><img src={insta_logo} alt="instagram" /></a>
-                                <a href="http://www.pinterest.com"><img src={pinterest_logo} alt="pinterest" /></a>
+                                <a href="http://www.twitter.com"><img src={twitter_logo} alt="twitter" className="footer_social_icon"/></a>
+                                <a href="http://www.facebook.com"><img src={fb_logo} alt="facebook"  className="footer_social_icon" /></a>
+                                <a href="http://www.google.com"><img src={icon_logo} alt="icon"  className="footer_social_icon" /></a>
+                                <a href="http://www.instagram.com"><img src={insta_logo} alt="instagram"  className="footer_social_icon" /></a>
+                                <a href="http://www.pinterest.com"><img src={pinterest_logo} alt="pinterest"  className="footer_social_icon" /></a>
                             </div>
                         </div>
                         <div className="col-sm-8 footer_list">
@@ -89,9 +89,9 @@ class Footer extends Component {
                             </div>
                         </div>
                     </div>
-                    <p className="offset-sm-7 col-sm-5 copyright">{footer_data[0].copyright1}</p>
-                    <p className="offset-sm-9 col-sm-3">{footer_data[0].copyright2}</p>
-                    <p className="col-sm-3 footer_logo_name">
+                    <p className="offset-sm-7 col-sm-5 copyright last">{footer_data[0].copyright1}</p>
+                    <p className="offset-sm-9 col-sm-3 last">{footer_data[0].copyright2}</p>
+                    <p className="col-sm-3 footer_logo_name last">
                         <span className="footer_span">meteor &nbsp;</span>International Edition +
                     </p>
                     <div className="offset-sm-3 col-sm-9">
@@ -113,5 +113,4 @@ class Footer extends Component {
         )
     }
 }
-
 export default Footer;

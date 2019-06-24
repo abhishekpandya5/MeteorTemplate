@@ -70,3 +70,25 @@
         color: rgba(131, 135, 147, 255);
         font-weight: bold;
     }
+
+@media (max-width: 480px) {
+    .outline {
+        .section {
+            h5 {
+                text-align: center;
+            }
+        }
+        .section_links {
+            width: 50%;
+            margin: auto;
+        }
+    }
+}
+
+// @media (min-width: 1024px) {
+//     .outline {
+//         .mob_links {
+//             margin-left: 160px;
+//         }
+//     }
+// }

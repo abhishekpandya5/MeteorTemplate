@@ -8,7 +8,7 @@ class SectionHeading extends Component {
                 <div className="col-sm-4 section">
                     <h5 className={headingStyle}>{heading}</h5>
                 </div>
-                <div className="offset-sm-4 col-sm-4 section ">
+                <div className="offset-sm-4 col-sm-4 section mob_links ">
                     <ul className="section_links">
                         <li className="switched section_li">WORLD</li>
                         <li className="section_li">PEOPLE</li>

@@ -205,7 +205,7 @@ const social_data = [
         text: "Fans"
     },
     {
-        image: "https://www.freeiconspng.com/uploads/logo-twitter-circle-png-transparent-image-1.png",
+        image: "https://cdn3.iconfinder.com/data/icons/social-media-circle/512/circle-twitter-512.png",
         alt: "twitter",
         cls: "twitter",
         class: "fab fa-twitter",
