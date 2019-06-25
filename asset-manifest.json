@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React_Meteor_Bootstrap/static/css/main.0b7a07dc.chunk.css",
+    "main.js": "/React_Meteor_Bootstrap/static/js/main.6634ec68.chunk.js",
+    "main.js.map": "/React_Meteor_Bootstrap/static/js/main.6634ec68.chunk.js.map",
+    "runtime~main.js": "/React_Meteor_Bootstrap/static/js/runtime~main.62f34ed9.js",
+    "runtime~main.js.map": "/React_Meteor_Bootstrap/static/js/runtime~main.62f34ed9.js.map",
+    "static/js/2.001fab56.chunk.js": "/React_Meteor_Bootstrap/static/js/2.001fab56.chunk.js",
+    "static/js/2.001fab56.chunk.js.map": "/React_Meteor_Bootstrap/static/js/2.001fab56.chunk.js.map",
+    "index.html": "/React_Meteor_Bootstrap/index.html",
+    "precache-manifest.6c1267c87aae0883b8fb2fda2d2f3c6a.js": "/React_Meteor_Bootstrap/precache-manifest.6c1267c87aae0883b8fb2fda2d2f3c6a.js",
+    "service-worker.js": "/React_Meteor_Bootstrap/service-worker.js",
+    "static/css/main.0b7a07dc.chunk.css.map": "/React_Meteor_Bootstrap/static/css/main.0b7a07dc.chunk.css.map"
+  }
+}
