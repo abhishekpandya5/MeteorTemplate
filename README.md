@@ -1,4 +1,4 @@
-# Image Search gallery
+# UI Template Design
 
 ### [Live Site](https://abhishekpandya5.github.io/MeteorTemplate/)
 
